@@ -56,29 +56,29 @@ module.exports = class extends Generator {
     installModules() {
         this.npmInstall([
             'css-loader',
-            'style-loader',
             'url-loader',
             'dts-bundle',
             'html-webpack-plugin',
             'on-build-webpack',
             'promise',
+            'style-loader',
             'ts-loader',
-            'webpack',
+            'tslint',
+            'tslint-react',
             'webpack-cli',
             'webpack-dev-server',
-            'fetch-mock',
-            'gherkin',
-            'tslint',
-            'tslint-react'
+            'webpack@4.29.0'
         ], { 'save-dev': true });
 
         this.npmInstall([
+            '@types/jquery',
             '@types/microsoft-ajax',
             '@types/promise',
             '@types/react',
             '@types/react-dom',
             '@types/react-router-dom',
             '@types/react-redux',
+            '@types/redux',
             'immutable',
             'react',
             'react-dom',
@@ -89,7 +89,6 @@ module.exports = class extends Generator {
             'axios',
             'office-ui-fabric',
             'office-ui-fabric-react'
-            // Install Types for your cutom project e.g. 'git+https://github.com/mukulmkd/YourTSProj'
         ], { 'save': true });
     }
 
