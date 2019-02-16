@@ -1,0 +1,29 @@
+{
+  "name": "generator-react-project",
+  "version": "0.0.1",
+  "description": "yeoman generator for React components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mukulmkd/generator-react-project.git"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "webpack",
+    "boilerplate",
+    "yeoman-generator"
+  ],
+  "author": "Mukul Kishore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mukulmkd/generator-react-project/issues"
+  },
+  "homepage": "https://github.com/mukulmkd/generator-react-project#readme",
+  "dependencies": {
+    "yeoman-generator": "^3.2.0"
+  }
+}
