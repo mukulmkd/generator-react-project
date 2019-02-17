@@ -24,4 +24,4 @@ This is the yeoman generator for creating a new TypeScript/React/Redux project
 * Let the magic happen.
 * Test that everything is ok by running "npm run build"
 
-If you have no red in the console it's done and you can start to work in the src folder.
+If you have no red in the console, it's done and you can start to work in the src folder.
