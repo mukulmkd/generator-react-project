@@ -5,7 +5,7 @@
   "main": "./dist/release/<%= title %>.js",
   "scripts": {
     "build": "webpack && webpack --config webpack.config.prod.js --optimize-minimize",
-    "start": "webpack-dev-server --content-base dist/",
+    "start": "webpack && webpack --config webpack.config.prod.js --optimize-minimize && webpack-dev-server --content-base dist/",
     "lint": "./node_modules/.bin/tslint --project . t stylish",
     "test": "jest --color --updateSnapshot"
   },
