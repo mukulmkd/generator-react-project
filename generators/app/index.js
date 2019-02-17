@@ -50,6 +50,14 @@ module.exports = class extends Generator {
                         title: answers.name.toLowerCase()
                     }
                 );
+
+                this.fs.copyTpl(
+                    this.templatePath('dist/typings/index.d.ts'),
+                    this.destinationPath('dist/typings/index.d.ts'),
+                    {
+                        title: answers.name.toLowerCase()
+                    }
+                );
             });
     }
 

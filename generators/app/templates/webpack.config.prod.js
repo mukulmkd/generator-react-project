@@ -46,9 +46,9 @@ module.exports = {
     plugins: [
         new webpackOnBuildPlugin(function (stats) {
             dts.bundle({
-                baseDir: 'dist/release/dts',
+                baseDir: 'dist/typings',
                 name: project.NAME,
-                main: 'dist/release/dts/index.d.ts',
+                main: 'dist/typings/index.d.ts',
                 outputAsModuleFolder: true,
                 out: './' + project.NAME + '.d.ts',
                 removeSource: true
