@@ -27,7 +27,7 @@ This is the yeoman generator for creating a new TypeScript/React/Redux project
 If you have no red in the console, it's done and you can start to work in the src folder.
 
 ## Running the project
-* First execute "npm run build" command and then you can take the 'debug' or 'release' verision of files together with the index.html file to distribute.
+* First execute "npm run build" command and then you can take the 'debug' or 'release' version of files together with the index.html file to distribute.
 * Execute "npm start" to run the app at the localhost.
 
 ENJOY and Happy Coding !!!!!!!!!!!
